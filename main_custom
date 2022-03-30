@@ -1,0 +1,506 @@
+ /* Made by Itami#3975
+IGN : quicksex
+twitter : @reikatugames
+tiktok : @reikatu , @quicksax
+ */
+:root {
+  --main-color: black;
+  --secondary-color: blue ;
+  background-image: transparent;
+}
+div{
+    color: white!Important;
+}
+.menuTab {
+    background-color: transparent!Important
+}
+#menuWindow, .setHed {
+  background-color: transparent!important;
+   border: transparent;
+}
+#newLeaderDisplay, .newLeaderContainer{
+  color: transparent!Important;
+  background-color: transparent!Important;
+  
+}
+/* -=-=-=-=-=-=-=- MENU STUFF -=-=-=-=-=-=-=- */
+
+.endCard {
+  background-color: transparent;
+}
+/* mainLogo + version stuff */
+#customizeButton span.material-icons {
+	display: none;
+}
+#customizeButton #text {
+  content: hidden;
+}
+#mainLogo {
+	display: none;
+}
+#seasonLabel {
+	display: none;
+}
+
+/* buttons */
+
+.button.lgn {
+	background-color: transparent;
+  position: fixed;
+	top: 85%;
+  left: 2%;
+}
+#signedOutHeaderBar {
+  background: transparent;
+}
+.buttonP {
+  border-color: white!important;
+}
+.buttonO {
+   border-color: white!Important;
+}
+.button {
+    transform: unset !important;
+}
+
+.button.small {
+    border: unset !important;
+    background-color: transparent;
+    padding-left: 23px !important;
+}
+/* sublogo + menuItem */
+#menuItemContainer {
+    position: absolute;
+    top: 97%;
+    left: 1%;
+    height: 0;
+    flex-direction: row;
+}
+
+.material-icons-outlined.menBtnIcn {
+    font-size: 39px !important;
+    color: white !important;
+    margin-left: 43px;
+}
+.menuItem .menuItemTitle {
+    display: none
+}
+.menuItem:hover .menBtnIcn {
+    transform: unset !important;
+    color: white !important
+	
+}
+#subLogoButtons {
+    position: absolute;
+    left: 13%;
+    bottom: 6%;
+}
+#faceItIconM{
+	display:none;
+}
+#menuBtnHost,
+#inviteButton,
+#menuBtnBrowser,
+#menuBtnJoin,
+#menuBtnRanked {
+    font-size: 0 !important;
+    color: white;
+    lefT: 25px
+}
+
+#menuBtnHost:after {
+    font-size: 33px !important;
+    font-family: 'Material Icons Outlined';
+    content: "\e88a";
+}
+
+#menuBtnBrowser:after {
+    font-size: 33px !important;
+    font-family: 'Material Icons Outlined';
+    content: "\e875";
+}
+
+#menuBtnRanked:after {
+    font-size: 33px !important;
+    font-family: 'Material Icons Outlined';
+    content: "\f20c";
+}
+
+#inviteButton:after {
+    font-size: 33px !important;
+    font-family: 'Material Icons Outlined';
+    content: "\e173";
+}
+
+#menuBtnJoin:after {
+    font-size: 33px !important;
+    font-family: 'Material Icons Outlined';
+    content: "\ea77";
+}
+
+/* chat */
+
+#uiBase.onMenu #chatHolder {
+      left: unset;
+      right: 10px;
+      bottom: 2%;
+  }
+    #chatList::-webkit-scrollbar{
+     display:none;
+  }
+
+  #chatSwitch:after {
+     display: none;
+  }
+
+  #chatInputHolder {
+     background-color: transparent;
+      border: 7px solid rgb(255 255 255 / 25%)
+  }
+  #chatInput {
+     margin-left: -22%;
+     background-color: transparent;
+     border: 0px ;
+  }
+
+  #chatList {
+     background-color: rgb(255 255 255 / 25%);
+  }
+  #chatHolder:focus-within #chatInputHolder::before{
+      visibility: transparent;
+  }
+#chatInput::placeholder{
+    color: transparent;
+}
+#chatItem {
+  border-color: 1px solid black!important
+  
+}
+#chatInputHolder::before{
+    content: "Itami#3975";
+    position: absolute;
+    color: #fff;
+    bottom: 22px;
+    left: 20px;
+    opacity: 0.4;
+    pointer-events: none;
+    
+}
+
+#chatHolder:focus-within #chatInputHolder::before{
+    opacity: 0;
+}
+#chatMsg_2 , #chatMsg_3 , #chatMsg_4
+/* menu start click thing */
+#menuMiniProfilePic, #menuAccountUsername, #mailIcon, #mailCount, #mLevelCont, .rankClck, #levelContainer, .progressBar, #menuKRCount,#menuJNKCount, .verticalSeparator {
+   display: none;
+  visibility: hidden;
+}
+#menuMiniProfilePic {
+  transform : scale(5);
+  left: 5
+}
+#instructions {
+  visibility: hidden;
+  animation: none;
+}
+#instructions:after {
+  visibility: visible;
+  content: 'S T A R T ';
+  color:white;
+  padding-right: 310px!important;
+  left:unset;
+  bottom: unset;
+}
+
+#uiBase.onMenu #spectButton {
+	position: fixed;
+    top: unset;
+    left: 20%;
+    bottom: 5%;
+    border-bottom: wheat;
+    border-top: wheat;
+	transform: none;
+	text-transform: var(--text-transform);
+
+}
+
+#spectButton :not(.switchsml) {
+    color: #0088ff00 !important;
+}
+
+#voiceDisplay {
+  display :none
+}
+#menuUsernameContainer {
+  position: fixed;
+  left: 50%;  
+  top : 90%
+}
+/* customisation classes */
+#menuClassNameTag,
+#menuClassName,
+#menuClassSubtext {
+    display: none !important;
+}
+
+#customizeButton {
+    left: unset;
+    bottom: -70px;
+}
+/* police button */
+.buttonG {
+  border: 4px solid white !important
+}
+.buttonB {
+  border: 4px solid white !important
+}
+
+#policeButton {
+  position: fixed;
+  bottom:28%
+}
+
+
+
+/* -=-=-=-=-=-=-=- HUD STUFF -=-=-=-=-=-=-=- */
+#teamName {
+  background-color:  transparent;
+}
+#newLeaderDisplay, #leaderContainer, #leaderDisplay  {
+  background-color: transparent!important;
+}
+#hudClassImg{
+      display: visible;
+  }
+  #hudClassIcon{
+      background-color:rgba(0,0,0,0);
+      background-size:cover;
+      width:150px;
+      height:150px;
+      right: unset;
+      left: 4%
+  }
+
+/* Health */
+
+#hudClassIcon {
+	display: none;
+}
+
+#healthValueHolder {
+    background-color: transparent;
+    width: 100px;
+    height: 65px;
+    border-radius: 0;
+    position: fixed;
+    left: 35%;
+    bottom: 13%;
+    padding: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    align-items: center;
+}
+
+#healthValue:after {
+    content: '健康' !important;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    font-size: 32px !important;
+    color: pink !important;
+}
+
+#healthValue {
+    color: #fff !important;
+    font-family: hpammo;
+    font-size: 96px;
+    text-align: center;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+    will-change: unset;
+}
+
+#maxHP {
+    display: none;
+}
+
+#challIcon {
+    display: none !important;
+}
+
+#healthBar {
+    display: none;
+}
+
+/* Ammo */
+
+#ammoDisplay {
+    width: 50px;
+    height: 5px;
+    top: calc(50% + 35px);
+    left: calc(50% - 25px);
+    background-color: transparent;
+    letter-spacing: 2px;
+    border-radius: 0;
+    position: fixed;
+    right: 31%;
+    bottom: 25%;
+    padding: 0;
+    padding-top: 0;
+    padding-left: 0;
+    transform: none;
+}
+
+#ammoVal {
+    color: #fff !important;
+    font-family: hpammo;
+    font-size: 96px;
+    background-color: transparent;
+    width: 100px;
+    height: 65px;
+    border-radius: 0;
+    position: fixed;
+    right: 35%;
+    bottom: 13%;
+    padding: 0;
+    margin-bottom: 0;
+    padding-right: 0;
+    padding-left: 0;
+    align-items: center;
+    text-shadow: 2px 2px 3px rgba(30, 30, 30, .5);
+}
+
+#ammoVal:after {
+    content: '銃弾' !important;
+    display: flex !important;
+    flex-direction: column-reverse !important;
+    font-size: 32px !important;
+    color: pink !important;
+}
+
+#ammoMax {
+    display: none;
+}
+
+#ammoIcon {
+    display: none;
+}
+
+#reloadMsg {
+    bottom: 100px;
+    background: transparent !important;
+}
+
+/* timer */
+
+#timerVal {
+    color: #fff;
+    padding-left: 3px;
+    font-size: 64px;
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+#timerIcon {
+    display: none;
+}
+
+#timerDisplay {
+    text-align: left;
+    vertical-align: top;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0,0,0,.0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ads hider */
+
+#streamContainer { display: none; }
+div#twitchDropsAd.youNewDiv { display: none !important; }
+div#doubleXPAd.youNewDiv { display: none !important; }
+div#dropsPop { display: none !important; }
+div#newUserGuide.youNewDiv { display: none; }
+div#krDiscountAd.youNewDiv { display: none; }
+div#updateAd.youNewDiv { display: none !important; }
+div#rankedBlog.youNewDiv { display: none; }
+div#headerRight.headerBarRight.headerBar { display: none; }
+div#newsHolder { display: none; }
+div#mapInfo { display: none; }
+div#mapInfoHolder { display: none; }
+div#aContainer, div#aMerger { display: none !important; }
+div#rankedSoonTm { display: none; }
+#loadInfoLHolder, #loadGamNm, #loadInfoRHolder { display: none !important; }
+#exitButton { display: none !important; }
+div#rankedPop { display: none !important;}
+div#bundlePop { display: none !important; }
+div#claimPop { display: none !important; }
+div#bubbleContainer { display: none !important}
